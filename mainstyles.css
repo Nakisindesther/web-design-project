@@ -1,0 +1,61 @@
+body{
+    background-color: darkgrey;
+    color: black;
+    width: 80%;
+    margin: auto;
+}
+nav{
+   width: 50%;
+   margin: auto;
+    margin: top;
+    clear: both;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+article{
+   
+    width: 40%;
+    float: left;
+    margin: auto;
+
+}    
+header{
+    
+    padding: 20px;
+}
+footer{
+    border: 2px solid white;
+    clear: both;
+}
+.logodiv{
+    height: inherit;
+    width: 30%;
+    border: 2px solid white;
+    float: left;
+
+}
+.logoimg{
+    height: 60%;
+    width: 30%;
+    border: 2px solid white;
+}
+nav>ul>li{
+    list-style: none;
+    display: inline;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav>ul>li>a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+ 
